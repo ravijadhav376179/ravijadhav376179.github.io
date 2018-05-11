@@ -1,0 +1,366 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	width: 100%;
+	position: absolute;
+	height: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.spanFull {
+	width: 100%;
+}
+
+.spanHalf {
+	width: 50%;
+}
+
+.span10p {
+	width: 10%;
+}
+
+.span20p {
+	width: 20%;
+}
+
+.span30p {
+	width: 30%;
+}
+
+.span40p {
+	width: 40%;
+}
+
+.span60p {
+	width: 60%;
+}
+
+.span70p {
+	width: 70%;
+}
+
+.span80p {
+	width: 80%;
+}
+
+.span90p {
+	width: 90%;
+}
+
+.height100pc {
+	height: 100%;
+}
+
+.height20 {
+	height: 20px;
+}
+
+.heightM20 {
+	height: calc(100% - 20px);
+}
+
+
+.height30 {
+	height: 30px;
+}
+
+.heightM30 {
+	height: calc(100% - 30px);
+}
+
+.height40 {
+	height: 40px;
+}
+
+.height50 {
+	height: 50px;
+}
+
+.heightM50 {
+	height: calc(100% - 50px);
+}
+
+.textCenter {
+	text-align: center;
+}
+
+svg {
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.positionTL {
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+.positionTR {
+	top: 0;
+	right: 0;
+	position: absolute;
+}
+
+.positionRelative{
+	position: relative;
+}
+
+.subText {
+	color: DDD;
+	font-size: 11px
+}
+
+.pad5 {
+	padding: 5px;
+}
+
+.metroHome {
+	    height: 100%;
+    background: #edeff5;
+    border: 0;
+    cursor: pointer;
+    transition: transform .3s;
+    float: left;
+    color: #6674d4;
+    font-size: 30px;
+}
+
+.metroHome:hover {
+	transform: scale(0.9);
+}
+
+.metroHome:active {
+	transform: scale(1);
+}
+
+.crumbs {
+	position: relative;
+    padding-right: 15px;
+    height: 100%;
+    color: #CCC;
+    background: none;
+    border: none;
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.crumbs:hover {
+	color: #333;
+}
+
+.crumbs:last-child {
+	color: blue;
+	cursor: auto;
+}
+
+.crumbs:active {
+	outline: 0;
+	border: 0;
+	color: #F5F5F5;
+}
+
+.crumbs:focus, .metroHome:focus {
+	outline: 0;
+	border: 0;
+}
+
+.crumbs:after {
+	content: ">";
+	position: absolute;
+	top: 11px;
+	right: 0;
+	font-size: 15px;
+}
+
+.crumbs:last-child:after {
+	display: none;
+}
+
+.displayFlex {
+	display: flex;
+}
+
+.displayNone {
+	display: none;
+}
+
+.dropDown {
+	width: 150px;
+	background: #FFF;
+	border: 1px solid #333;
+	height: 100%;
+	transition: box-shadow .3s;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+.boxShadowHover:hover {
+	box-shadow: 0px 0px 3px #000;
+}
+
+select:focus, button:focus {
+	outline: 0;
+}
+
+.contextMenu {
+	width: max-content;
+	height: auto;
+	position: absolute;
+	background: #3f849e;
+	padding: 0 5px;
+	color: #FFF;
+	border-radius: 4px;
+	box-shadow: 1px 1px 4px #000;
+}
+
+.customList {
+	font-size: 14px;
+	padding: 0;
+	cursor: pointer;
+	margin: 5px 0;
+}
+
+.customList li {
+	list-style: none;
+	padding: 0px 10px;
+	height: 35px;
+	line-height: 2.5;
+	transition: all .3s;
+	border-radius: 3px;
+}
+
+.customList li:hover {
+	background: #326a80;
+}
+
+.customList li span, button span {
+	padding-left: 10px;
+}
+
+.arrowUp:before {
+	position: absolute;
+	content: '';
+	top: -7px;
+	left: 2px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #3f849e;
+	width: 0;
+}
+
+
+.arrowDown:before {
+	position: absolute;
+	content: '';
+	bottom: -7px;
+	left: 2px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #3f849e;
+	width: 0;
+}
+
+.arrowR:before {
+	left: 80%;
+}
+
+.fA:before {
+	font-family: FontAwesome;
+}
+
+.boxShadowTop{
+  box-shadow: 0 -5px 5px -5px #333;
+}
+
+.modal{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	height: 100%;
+}
+
+.modal .modalContent{
+	width: 75%;
+	height: 75%;
+	background: #FFF;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px black;
+}
+
+.modal .modalContent .header{
+	width: 100%;
+	height: 50px;
+	/*border-bottom: 1px dashed #3f849e;*/
+}
+
+.modal .modalContent .header button#close{
+	float: right;
+	height: 100%;
+	width: 50px;
+	background: none;
+	border: none;
+	font-size: 25px;
+	color: #CCC;
+	cursor: pointer;
+}
+
+.modal .modalContent .content{
+	width: 100%;
+	height: calc(100% - 50px);
+}
+
+.modal .modalContent .content .sideBar{
+	width: 150px;
+	height: 100%;
+	border-right: 1px dashed #3f849e;
+	float: left;
+}
+.modal .modalContent .content .itemContent{
+	/*width: calc(100% - 151px);*/
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.modal .modalContent .content .itemContent img{
+	width: 100%;
+	height: 100%;
+}
+
+#pdfLink{
+	position: absolute;
+	top: 23%;
+	left: 40px;
+}
+
+#pdfLink img{
+	width: 85px;
+}
