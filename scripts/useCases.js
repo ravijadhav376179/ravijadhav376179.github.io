@@ -248,6 +248,7 @@ function createDeploymentsView(state) {
 			flowCanvas.selectAll("g.deploymentsCases").remove();
 			flowCanvas.selectAll("g.useCaseOptions").remove();
 			flowCanvas.selectAll("g.useCaseExtended").remove();
+			flowCanvas.selectAll("g.deploymentsCasesText").remove();
 		}
 	}
 
