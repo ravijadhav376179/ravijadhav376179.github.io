@@ -193,7 +193,7 @@ function createDeploymentsView(state) {
 
 						var deploymentsCaseImage = TCanvas.append("text")
 									         .attr("x", 0)
-													 .attr("y", 10)
+													 .attr("y", 30)
 													 .attr("text-anchor","middle")
 													 .style("font-size","14px")
 													 .attr("fill","#229954")
