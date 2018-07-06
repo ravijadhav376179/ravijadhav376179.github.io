@@ -89,7 +89,7 @@ function drawCenterNode(nodePosition){
 			.attr("height", "50px").attr("xlink:href", "img/nodes/connections.png");		
 	rectG.append("text").attr("x", "65").attr("y", "80").style("font-weight", "bold").style("font-size", "16px").style("text-anchor", "middle")
 	.text("Customer Centric").call(wrap, 150);	
-	rectG.append("text").attr("x", "65").attr("y", "110").style("font-size", "14px").style("text-anchor", "middle")
+	rectG.append("text").attr("x", "65").attr("y", "110").style("font-size", "14px").style("text-anchor", "middle").style("font-weight", "bold")
 	.text("Digital Strategy").call(wrap, 120);
 }
 
