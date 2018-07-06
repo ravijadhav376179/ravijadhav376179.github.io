@@ -87,10 +87,10 @@ function drawCenterNode(nodePosition){
 	rectG.append("circle").attr("r", 80).attr("cx", 65).attr("cy", 80).style("fill", "#ececec").style("stroke", "#959595").style("stroke-width", "4px");
 	rectG.append("image").attr("x", "20").attr("y", "15").attr("width", "90px")
 			.attr("height", "50px").attr("xlink:href", "img/nodes/connections.png");		
-	rectG.append("text").attr("x", "65").attr("y", "80").style("font-weight", "bold").style("font-size", "10px").style("text-anchor", "middle")
-	.text("Central Station Enterprise Strategy").call(wrap, 150);	
-	rectG.append("text").attr("x", "65").attr("y", "110").style("font-size", "9px").style("text-anchor", "middle")
-	.text("Management Committee, Corporate Strategy, Legal, Enterprise Data Mgmt").call(wrap, 120);
+	rectG.append("text").attr("x", "65").attr("y", "80").style("font-weight", "bold").style("font-size", "16px").style("text-anchor", "middle")
+	.text("Customer Centric").call(wrap, 150);	
+	rectG.append("text").attr("x", "65").attr("y", "110").style("font-size", "14px").style("text-anchor", "middle")
+	.text("Digital Strategy").call(wrap, 120);
 }
 
 
